@@ -1,0 +1,21 @@
+{
+  "name": "speech-recognition-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^3.1.0",
+    "express": "^4.17.1",
+    "node-record-lpcm16": "^0.3.1",
+    "socket-io": "^1.0.0",
+    "socket.io": "^2.2.0",
+    "wavefile": "^8.4.4",
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
